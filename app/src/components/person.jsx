@@ -1,12 +1,19 @@
 import React from 'react';
 
 function Person(props) {
+
+    // const removePerson = () => {
+    //     props.onRemove(props.id);
+    // }
+
     return (
         <div className='table container'>
             <table>
-            <h2>{props.name}</h2>
-            <p>{props.age}</p>
+            <th>{props.name}</th>
+            <th>{props.age}</th>
+            {/* <p>{} <button onClick = {removePerson}>Remove</button></p> */}
             </table>
+            
         </div>
     );
 }

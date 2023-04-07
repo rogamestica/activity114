@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Person from './Person';
+import Person from './person';
 
 function PersonList() {
   const [persons, setPersons] = useState([]);
@@ -13,6 +13,7 @@ function PersonList() {
     newPersons.splice(index, 1);
     setPersons(newPersons);
   };
+
 
   const updatePerson = (index, field, value) => {
     const newPersons = [...persons];
@@ -28,7 +29,6 @@ function PersonList() {
           <tr>
             <th>Name</th>
             <th>Age</th>
-            <th>Action</th>
           </tr>
         </thead>
         <tbody>
