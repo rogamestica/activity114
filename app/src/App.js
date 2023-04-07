@@ -1,6 +1,6 @@
 import './App.css';
-// import Greeting from './components/greeting';
-// import Counter from './components/counter';
+import Greeting from './components/greeting';
+import Counter from './components/counter';
 import Person from './components/person';
 import PersonList from './components/personlist';
 
@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="App">
       <table>
-      {/* <Greeting name="John" />
+      <Greeting name="John" />
       <Greeting name="Mary" />
       <Greeting name="Alex" />
       <Greeting name="Sarah" />
 
-      <Counter /> */}
+      <Counter />
 
      <th> 
      < PersonList />
